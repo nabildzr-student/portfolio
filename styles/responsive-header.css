@@ -1,0 +1,74 @@
+
+/* if w <= 1000px */
+  @media screen and (max-width: 1000px) {
+    .image-conf {
+      width: 200px;
+      height: 200px;
+    }
+    .content-1 {
+      grid-template-columns: 1fr;
+    }
+  
+    .header {
+      padding: 100px 0px 100px;
+      margin: 0px 0px;
+      background-color: rgb(0, 0, 0);
+  
+    }
+    .image-content-1 {
+      padding-right: 50px;
+    }
+  
+    .user {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+  
+  /* if w = 1500+ */
+  @media screen and (min-width: 1500px) {
+    .image-conf {
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+    }
+    .header-context {
+      font-weight: bold;
+      font-size:60px;
+    }
+  
+    .header-description {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* if w = 2000+ */
+  @media screen and (min-width: 2000px) {
+      .image-conf {
+        width:700px;
+        height:700px;
+        border-radius: 50%;
+      }
+      .header-context {
+        font-weight: bold;
+        font-size: 90px;
+      }
+    
+      .header-description {
+        font-size: 35px;
+        margin-bottom: 30px;
+      }
+      .btn-contact-me {
+          background-color: #000000;
+          color: white;
+          font-size: 40px;
+          padding: 25px 35px;
+          border: 3px solid white;
+          border-radius: 25px;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          -ms-border-radius: 25px;
+          -o-border-radius: 25px;
+  }
+    }
+    

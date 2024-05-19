@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  background-color: rgb(22, 22, 22);
+}
+
+.header {
+  padding: 150px 0px 100px;
+
+  background-color: rgb(0, 0, 0);
+}
+
+/* per section */
+.container {
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-bottom: 70px;
+}
+
+.content-1 {
+  margin-right: 50px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.image-content-1 {
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.image-conf {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  object-fit: cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.user {
+  margin: 100px 0px 100px 50px;
+}
+
+.text-white {
+  color: white;
+}
+
+.header-context {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.header-description {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-contact-me {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-contact-me:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-contact-me:active {
+  background-color: white;
+  color: black;
+}
+
+/* PORTFOLIO */
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .card-img-top {
+    height: 100px;
+  }
+  .section-title {
+    margin-bottom: 0px;
+  }
+}
+
+.section-name {
+  font-size: 35px;
+  padding-top: 100px;
+}
+
+.section-title {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #888;
+}
+
+.text-white {
+  color: white;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: 15px
+}
+
+.card-detail {
+    font-size: 18px;
+    color: #888;
+}
+
+.card-detail:hover {
+    color: white;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 3;
+  margin-top: 10px;
+}
+
+.btn-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.bx-sizing {
+    font-size: 25px;
+}
+.bx-margin-1 {
+    margin-right: 10px
+}
+
+.btn {
+    border: 1px solid white;
+}
+.btn:hover {
+    color: rgb(37, 37, 37);
+    background-color: rgb(177, 177, 177);
+}
