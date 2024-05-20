@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <style>
+      /* CSS styles go here */
+      /* CSS styles go here */
+      header {
+        background: #333;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 10px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      section {
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid #ccc;
+      }
+
+      section#home {
+        background: #f0f0f0;
+      }
+
+      section#portfolio {
+        background: #e0e0e0;
+      }
+
+      section#services {
+        background: #d0d0d0;
+      }
+
+      section#contact {
+        background: #c0c0c0;
+      }
+    /* make the all of element styled */
+    * {
+      box-sizing: border-box;
+    }
+
+    /* style the header */
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+    }
+
+    /* style the navigation */
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* style the sections */
+    section {
+      padding: 20px;
+      margin: 20px 0;
+      border: 1px solid #ccc;
+    }
+
+    section#home {
+      background: #f0f0f0;
+    }
+
+    section#portfolio {
+      background: #e0e0e0;
+    }
+
+    section#services {
+      background: #d0d0d0;
+    }
+
+    section#contact {
+      background: #c0c0c0;
+    }
+
+    /* style the buttons */
+    button {
+      padding: 10px;
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #555;
+    }
+
+    /* style the form */
+    form {
+      margin-top: 20px;
+    }
+
+    form label {
+      display: block;
+      font-weight: bold;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0;
+    }
+
+    form textarea {
+      height: 100px;
+    }
+
+    form input[type="submit"] {
+      padding: 10px;
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+      background: #555;
+    }
+    /* make the textarea cannot be pulled */
+    textarea {
+      resize: none;
+    }
+
+    /* make the images responsive */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* make the website too responsive */
+    @media (max-width: 600px) {
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+
+    /* make the images responsive */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* make the website too responsive */
+    @media (max-width: 600px) {
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+
+    /* add the background image */
+    body {
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .fa-instagram {
+      color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+    <!-- Home section content goes here -->
+    <i class="fa-brands fa-instagram"></i>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Orientation: Web Developer</p>
+    <img src="user-image.jpg" alt="User Image">
+    <h2>Name: John Doe</h2>
+    <p>Description: I am a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
+    <img src="user-image-2.jpg" alt="User Image">
+    <button>Contact Me</button>
+
+    </section>
+
+    <section id="portfolio">
+      <!-- Portfolio section content goes here -->
+      <!-- add a portfolio results -->
+      <h2>Portfolio</h2>
+      <p>Some of the works I have done</p>
+      <img src="portfolio-1.jpg" alt="Portfolio 1">
+      <h3>Portfolio 1</h3>
+      <p>Description: Some description here</p>
+      <img src="portfolio-2.jpg" alt="Portfolio 2">
+      <h3>Portfolio 2</h3>
+      <p>Description: Some description here</p>
+    </section>
+
+    <section id="services">
+      <!-- Services section content goes here -->
+      <h2>Services</h2>
+      <p>What I can offer</p>
+      <h3>Web Development</h3>
+      <p>Creating websites using HTML, CSS, and JavaScript</p>
+      <h3>Web Design</h3>
+      <p>Designing websites that are user-friendly and visually appealing</p>
+    </section>
+
+    <section id="contact">
+      <!-- Contact section content goes here -->
+      <h2>Contact Me</h2>
+      <p>Let's get in touch</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+    <!-- add  -->
+    <script src="https://kit.fontawesome.com/42f98f07fc.js" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -6,10 +6,8 @@
   scroll-behavior: smooth;
 }
 
-
-
 body {
-  background-color: rgb(22, 22, 22);
+  background-color: rgb(17, 17, 17);
 }
 
 .header {
@@ -47,10 +45,16 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  box-shadow: 0px 0px 50px rgb(255, 255, 255, 0.3);
+}
+
+.image-conf:hover {
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
 }
 
 .user {
-  margin: 100px 0px 100px 50px;
+  margin: 70px 0px 100px 50px;
 }
 
 .text-white {
@@ -75,11 +79,13 @@ body {
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.5) inset;
 }
 
 .btn-contact-me:hover {
   background-color: white;
   color: black;
+  box-shadow: 0px 0px 10px white;
 }
 
 .btn-contact-me:active {
@@ -121,17 +127,17 @@ body {
 }
 
 .card-title {
-    font-weight: 400;
-    font-size: 15px
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .card-detail {
-    font-size: 18px;
-    color: #888;
+  font-size: 18px;
+  color: #888;
 }
 
 .card-detail:hover {
-    color: white;
+  color: white;
 }
 
 .arrow {
@@ -139,7 +145,8 @@ body {
   align-items: center;
   justify-content: end;
   gap: 3;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .btn-arrow {
@@ -149,16 +156,92 @@ body {
 }
 
 .bx-sizing {
-    font-size: 25px;
-}
-.bx-margin-1 {
-    margin-right: 10px
+  font-size: 25px;
 }
 
 .btn {
-    border: 1px solid white;
+  border: 1px solid white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-right: 15px;
+  box-shadow: 0px 0px 15px white;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .btn:hover {
-    color: rgb(37, 37, 37);
-    background-color: rgb(177, 177, 177);
+  color: rgb(37, 37, 37);
+  background-color: rgb(177, 177, 177);
+  box-shadow: 0px 0px 10px white;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.card-body {
+  border: 3px solid white;
+  padding: 20px 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-left: 10px;
+  transition: 0.3s;
+  margin-right: 10px;
+  background-color: rgb(31, 31, 31);
+}
+
+.card-body:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px rgb(160, 160, 160);
+  /*cardbodyhoverifthecursorgotothecardbodythenthecardwillbig*/
+  transform: scale(1.1);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.card-img-top {
+  transition: 0.3s;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card-body:hover .card-img-top {
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px white;
+}
+
+.logo-brands {
+  font-size: 20px;
+  display: inline-block;
+  line-height: 0;
+  padding: 6px 7px;
+  background: white;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  text-align: center;
+}
+
+.brands {
+  display: inline-block;
+  background: none;
+  border: none;
+  margin-bottom: 15px;
+  margin-right: 5px;
+
 }
