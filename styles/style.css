@@ -74,9 +74,11 @@ body {
 .header-description {
   font-size: 15px;
   margin-bottom: 20px;
+  text-shadow: 0px 0px 10px white;
 }
 
 .btn-contact-me {
+  font-weight:bold;
   background-color: orange;
   color: rgb(0, 0, 0);
   padding: 10px 20px;
@@ -85,12 +87,23 @@ body {
   text-decoration: none;
   cursor: pointer;
   box-shadow: 30px 0px 80px orange;
+  transition: 0.5s ease-in-out;
 }
 
 .btn-contact-me:hover {
   background-color: orange;
   color: black;
-  box-shadow: 0px 0px 10px orange;
+  box-shadow: 30px 0px 80px rgb(255, 142, 77);
+  transform: scale(1.03);
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
 }
 
 .btn-contact-me:active {
