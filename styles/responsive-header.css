@@ -25,11 +25,14 @@
   }
 
   @media screen and (max-width: 500px) {
-    .image-conf {
+    .image-conf, .image-content-1  {
       visibility: hidden;
     }
+
+
+
     .content-1 {
-      grid-template-columns: 2rem 1fr;
+      grid-template-columns: 0 1fr;
     }
   
     .header {
@@ -38,10 +41,7 @@
       background-color: rgb(0, 0, 0);
   
     }
-    .image-content-1 {
-      padding-right: 50px;
-    }
-  
+
     .user {
       margin: 70px 0px 100px 0px;
     }
