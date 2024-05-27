@@ -27,7 +27,7 @@ body {
   margin-right: 50px;
   margin-left: 50px;
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
+  grid-template-columns: 25rem 1fr;
 }
 
 .image-content-1 {
@@ -37,8 +37,8 @@ body {
 }
 
 .image-conf {
-  width: 420px;
-  height: 420px;
+  width: 380px;
+  height: 380px;
   border-radius: 50%;
   object-fit: cover;
   -webkit-border-radius: 50%;
@@ -46,6 +46,7 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   box-shadow: 0px 0px 50px rgb(255, 255, 255, 0.3);
+  place-items: center;
 }
 
 .image-conf:hover {
@@ -64,6 +65,7 @@ body {
 .header-context {
   font-weight: bold;
   font-size: 50px;
+  color: rgb(255, 166, 0);
 }
 
 .header-description {
@@ -72,20 +74,20 @@ body {
 }
 
 .btn-contact-me {
-  background-color: #000000;
-  color: white;
+  background-color: orange;
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
-  border: 1px solid white;
+  border: 1px solid orange;
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
-  box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.5) inset;
+  box-shadow: 30px 0px 80px orange;
 }
 
 .btn-contact-me:hover {
-  background-color: white;
+  background-color: orange;
   color: black;
-  box-shadow: 0px 0px 10px white;
+  box-shadow: 0px 0px 10px orange;
 }
 
 .btn-contact-me:active {
@@ -223,25 +225,13 @@ body {
   box-shadow: 0px 0px 10px white;
 }
 
+/* bootstrap icons
 .logo-brands {
   font-size: 20px;
-  display: inline-block;
-  line-height: 0;
-  padding: 6px 7px;
+  padding: 7px;
   background: white;
   border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
   text-align: center;
-}
+  justify-content: center;
 
-.brands {
-  display: inline-block;
-  background: none;
-  border: none;
-  margin-bottom: 15px;
-  margin-right: 5px;
-
-}
+} */
